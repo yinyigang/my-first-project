@@ -9,19 +9,8 @@ class Person {
     int _age;
     string _name;
     public:
-string getname() {
-    return _name;
-}
-
-int getage() {
-    return _age;
-}
-
-void setage(int age) {
-    _age = age;
-}
-
-void setname(string name ) {
-    _name = name;
-}
+    void setage(int age);
+    void setname(string name );
+    int getage();
+    string getname();
 };
